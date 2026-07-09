@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", "sans-serif";
+  --font-serif: "Playfair Display", "serif";
+  
+  --color-brand-blush: #F8C8DC;
+  --color-brand-rose: #B76E79;
+  --color-brand-gold: #D4AF37;
+  --color-brand-dark: #222222;
+  --color-brand-beige: #F5EDE4;
+  --color-brand-white: #FFFFFF;
+}
+
+/* Custom visual utility classes */
+.luxury-shadow {
+  box-shadow: 0 10px 30px -10px rgba(183, 110, 121, 0.15);
+}
+
+.luxury-shadow-lg {
+  box-shadow: 0 20px 40px -15px rgba(183, 110, 121, 0.25);
+}
+
+.floral-pattern {
+  background-color: #FFFFFF;
+  background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M40 0C40 22.091 22.091 40 0 40C22.091 40 40 57.091 40 80C40 57.091 57.091 40 80 40C57.091 40 40 22.091 40 0Z' fill='%23B76E79' fill-opacity='0.03' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.floral-pattern-beige {
+  background-color: #F5EDE4;
+  background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M40 0C40 22.091 22.091 40 0 40C22.091 40 40 57.091 40 80C40 57.091 57.091 40 80 40C57.091 40 40 22.091 40 0Z' fill='%23B76E79' fill-opacity='0.03' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+/* Glassmorphism class */
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glassmorphism-dark {
+  background: rgba(34, 34, 34, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F5EDE4;
+}
+::-webkit-scrollbar-thumb {
+  background: #B76E79;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9d5d67;
+}

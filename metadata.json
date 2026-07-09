@@ -1,0 +1,6 @@
+{
+  "name": "Saira Beauty Parlor",
+  "description": "Premium luxury Pakistani beauty salon in Qamber, Sindh, Pakistan. Expert bridal makeup, facials, hair styling, skin care, and professional beauty treatments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
